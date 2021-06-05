@@ -1,0 +1,202 @@
+{
+    "intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["Hello", "hey", "hi", "namaste", "good day", "greetings"],
+        "responses": ["Hello!", "Hey!", "Hey, How can I help you?", "Hi!"]
+    },
+    {
+        "tag": "greetings_mr",
+        "patterns": ["नमस्कार", "राम राम", "namaskar", "ram ram"],
+        "responses": ["नमस्कार, मी तुम्हाला कशी मदत करू शकतो"]
+    },
+    {
+        "tag": "greetings_hi",
+        "patterns": ["नमस्ते", "namaste"],
+        "responses": ["नमस्ते, मैं आपके लिए क्या कर सकता हूँ?"]
+    },
+    {
+        "tag": "greetings_gi",
+        "patterns": ["કેમ ચો", "kem cho"],
+        "responses": ["મજામાં, હુ તમરા માતે સુ કરી સકુચુ?"]
+    },
+    {
+        "tag": "how_are_you",
+        "patterns": ["How are you?", "How do you do?", "how's it going?", "what's up?"],
+        "responses": ["I am good. Glad you're here!"]
+    },
+    {
+        "tag": "how_are_you_mr",
+        "patterns": ["कसा आहेस", "कसे आहात", "how's it going?", "what's up?", "kasa aahes", "kase aahat"],
+        "responses": ["मी मजेत!"]
+    },
+    {
+        "tag": "how_are_you_hi",
+        "patterns": ["क्या हाल है?", "आपका स्वास्थ्य कैसा है?", "kya haal hai", "kaise ho"],
+        "responses": ["ठीक हूं. खुशी है कि आप यहाँ हैं! आपसे मिलकर अच्छा लगा!"]
+    },
+    {
+        "tag": "how_are_you_gi",
+        "patterns": ["ટમે કેમ ચો?", "tame kem cho?"],
+        "responses": ["હુ માજમા. બૌજ સરુ લાઇગુ કે તમે આયા ચો"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["hello, whats your name", "may I know your name?", "who are you?", "who is this?"],
+        "responses": ["Hello! My name is Sakecu :)", "Hey! I am Sakecu", "Sakecu is here to help!", "I am Sakecu!"]
+    },
+    {
+        "tag": "name_mr",
+        "patterns": ["तुझे नाव काय", "तू कोण आहेस", "tujhe naav kay", "tu kon aahes?"],
+        "responses": ["मी Sakecu", "Sakecu आपल्या सेवेत हजर आहे!", "माझे नाव Sakecu :)"]
+    },
+    {
+        "tag": "name_hi",
+        "patterns": ["आपका नाम क्या है?", "aapka naam kya hai?", "tera naam kya hai?"],
+        "responses": ["मेरा नाम साकेकु है :)"]
+    },
+    {
+        "tag": "name_gi",
+        "patterns": ["તમરુ નામ સુ ચે?", "tamru naam su che?", "taro naam su che"],
+        "responses": ["નમસ્તે! મારુ નામ સકેકુ ચે :)"]
+    },
+    {
+        "tag": "tasks",
+        "patterns": ["hello, what can you do?", "How can you help me?", "Help", "What can you do?"],
+        "responses": ["Hey! you are at the right place. Here are some of the things I can help you with! \n 1. Basic Information about SAKEC \n 2. Courses ofered by SAKEC \n 3. Placements at SAKEC \n You can ask anything, I will try to help you at my best! :)"]
+
+    },
+    {
+        "tag": "tasks_mr",
+        "patterns": ["आपण काय करू शकता?", "तू काय करू शकतोस?", "tu kay kartos", "tu kay karu shaktos?", "aapan kaay karu shakta?"],
+        "responses": ["अहो! आपण योग्य ठिकाणी आहात मी आपल्यास मदत करु शकणार्‍या अशा काही गोष्टी येथे आहेत! \n १. SAKEC विषयी मूलभूत माहिती \n २. SAKEC यांनी दिलेला अभ्यासक्रम \n ३. SAKEC येथील प्लेसमेंट्स \n आपण काहीही विचारू शकता मी सर्वतोपरी मदत करण्याचा प्रयत्न करेन! :)"]
+
+    },
+    {
+        "tag": "tasks_hi",
+        "patterns": ["तुम क्या कर सकते हो?", "आप क्या कर सकते हो?", "tum kya kar sakte ho?", "aap kya kar sakte ho?", "tu kya karte ho"],
+        "responses": ["आपका आना सही जगह पर हुआ है \n यहाँ कुछ चीजें हैं जिनकी मैं आपकी मदद कर सकता हूँ! \n 1. SAKEC के बारे में बुनियादी जानकारी \n 2. SAKEC द्वारा संचालित पाठ्यक्रम \n 3. SAKEC में नियुक्तियाँ \n आप कुछ भी पूछ सकते हैं, मैं आपकी पूरी मदद करने की कोशिश करूंगा! :)"]
+
+    },
+    {
+        "tag": "tasks_gi",
+        "patterns": ["તમે સુ કરી સકો ચે?", "tame su kari shako che?"],
+        "responses": ["તેમે એકદમ બારાબાર જગ્યા પર ચો.\n હુ તમને અમુક વસ્તૂ  મા મદત કરી સકુ ચુ \n 1. sakec ની \n 2. અભ્યાસક્રમો સાકેક તરાફ થી. \n 3. સાકેક ના પ્લેસમેન્ટ. \n તમે ગમે તે વસ્તુ પુછિ સકો ચો, હુ તમને મારા થી જેતલુ મદદ થાયે એટલી કરીસ. :)"]
+
+    },
+    {
+        "tag": "basic_info",
+        "patterns": ["What is SAKEC?", "What does SAKEC do?", "Why should i join SAKEC?", "I want to know about SAKEC", "I want to know about Shah & Anchor", "What can I do at Shah & Anchor?", "I want to know about SAKEC", "I want to know about SAKEC", "Provide information about SAKEC", "info"],
+        "responses": ["Shah & Anchor Kutchhi Engineering College is an engineering college in Mumbai \n affiliated under University Of Mumbai. \n The college offers technical education to students. \n This college was established by the Mahavir Education Trust in 1985, \n making it one of the oldest technical institutes in the state."]
+        
+    },
+    {
+        "tag": "basic_info_mr",
+        "patterns": ["sakec म्हणजे काय?", "sakec काय करते?", "मी sakecमध्ये का प्रवेश घ्यावा??", "मला sakec बद्दल जाणून घ्यायचे आहे", "मला शाह आणि अँकरबद्दल जाणून घ्यायचे आहे", "मला sakec बद्दल जाणून घ्यायचे आहे","sakec बद्दल माहिती द्या", "माहिती", "sakec kaay aahe?", "mala sakec baddal jaanun ghyayche aahe", "me sakec madhye admission ka ghyavi", "maahiti", "sakec baddal maahiti dya"],
+        "responses": ["शाह आणि अँकर कच्छी अभियांत्रिकी महाविद्यालय हे मुंबई विद्यापीठाच्या अंतर्गत \n मुंबईतील एक अभियांत्रिकी महाविद्यालय आहे. हे महाविद्यालय विद्यार्थ्यांना \n तांत्रिक शिक्षण देते. या महाविद्यालयाची स्थापना \n १९८५ मध्ये महावीर एज्युकेशन ट्रस्टने केली \n आणि हे राज्यातील सर्वात जुन्या तांत्रिक संस्थांपैकी एक बनले."]
+        
+    },
+    {
+        "tag": "basic_info_hi",
+        "patterns": ["SAKEC क्या है?", "sakec kya hai?", "sakec matlab kya?", "shah & anchor matlab kya?"],
+        "responses": ["शाह एंड एंकर कच्छी इंजीनियरिंग कॉलेज मुंबई में एक इंजीनियरिंग कॉलेज है \n जो मुंबई विश्वविद्यालय से संबद्ध है कॉलेज छात्रों को तकनीकी शिक्षा प्रदान करता है। \n इस कॉलेज की स्थापना महावीर एजुकेशन ट्रस्ट द्वारा 1985 में की गई थी, अत: \n यह राज्य के सबसे पुराने तकनीकी संस्थानों में से एक है |"]
+        
+    },
+    {
+        "tag": "basic_info_gi",
+        "patterns": ["સાકેક સુ ચે?", "sakec su che?"],
+        "responses": ["શાહ અને એન્કર કોલેજ કચ્છની એન્જિનિયરિંગ કોલેજ ઇજનેરી ક collegeલેજ ચે મુમ્બાઇ મા જે યુનિવર્સિટી ઓફ મુંબાઈ થી સંલગ્ન ચે. \n આ ક college લેજ માં તકનીકી શિક્ષણ ની વિદ્યાર્થીઓ શિક્ષણ સાથી. આ ક college લેજ મહાવીર એજ્યુકેશન ટ્રસ્ટ 1985 મા સ્ટેપન કૈરી થી. \n આ કોલેજ સૌથી જુની તકનીકી સંસ્થા ચે રાજ્ય મા"]
+        
+    },
+    {
+        "tag": "courses_offered",
+        "patterns": ["What will I lean at SAKEC?", "What can I lean at SAKEC?", "What are the courses at SAKEC?", "courses", "departments", "topics", "subjects"],
+        "responses": ["The college has an intake capacity of 420 students \n in three branches for Bachelor of Engineering degree: \n Electronics Engineering – 120 seats \n Computer Engineering – 180 seats \n Information Technology – 120 seats \n Electronics and telecommunications – 60 seats (started from 2012) \n In addition to these, 10–15 diploma students are admitted each year \n during the second year of the bachelor's degree. \n Infrastructure and Facilities The college has furnished classrooms. \n Most classrooms have a capacity of around 75 seats, while with some \n larger classrooms with nearly double capacity.  \n The college has an auditorium that seats 120. \n There is also an Engineering Drawing hall. \n The college has a library with reading hall, \n a collection of books related to the curriculum and a few books \n related to self-improvement and personality development. \n The college library subscribes to a number of National and International \n Journals devoted to technical subjects to help students \n keep themselves updated with latest developments. \n The college is also a member of IEL Online where \n IEEE journals can be accessed. Web browsing facilities \n are also available in the library. \n The library has university prescribed text books and  \n reference material. It subscribes to all major international journals \n and magazines. The library is open six days a week, and on Sundays \n when exams are approaching. Canara Bank extension counter \n has been provided for exclusive use by the staff and students \n of the college and polytechnic. The in-house \n canteen provides a variety of food items. \n A gymkhana with facilities for Table Tennis, Carrom and Chess has been provided. \n Master of Engineering (M.E.) Master of Engineering section in Shah and Anchor \n was affiliated by Mumbai University in the year 2011. \n Electronics Engineering – 18 seats Master In Management Studies (M.M.S.) \n The Masters in Management Studies (MMS) is a two-year full-time management \n program affiliated to the University of Mumbai and is approved by the \n All India Council for Technical Education (AICTE). \n The program is conducted under the direction \n of the University with functional specializations offered in the \n areas of Marketing, Finance, System & Human Resources. \n The college has an intake capacity of 60 students in three branches \n for M.M.S degree: Marketing Finance System & Human Resources Operations \n Infrastructure and Facilities The Department Of Management studies \n is located in the college building. \n The department has a library with a reading hall. It has a \n large collection of books related to the curriculum and related to general \n management, business, self-improvement and personality development. \n Apart from curriculum, the college also encourages students to actively \n participate in outdoor activities."]
+    },
+    {
+        "tag": "courses_offered_mr",
+        "patterns": ["sakec येथे मी काय शिकेल?", "sakec येथे अभ्यासक्रम काय आहेत?", "अभ्यासक्रम", "विषय", "sakec madhye me kaay shikel", "sakec madhye kaay shikavtaat", "sakec madhye abbhyaskaram kaay aahe?", "abbhyaskram", "vishay"],
+        "responses": ["कॉलेजमध्ये अभियांत्रिकी पदवीसाठी तीन शाखांमध्ये 420 विद्यार्थ्यांची क्षमता आहे: \n इलेक्ट्रॉनिक्स अभियांत्रिकी - 120 जागा संगणक अभियांत्रिकी - 180 जागा \n माहिती तंत्रज्ञान - 120 जागा - \n इलेक्ट्रॉनिक्स आणि दूरसंचार - 60 जागा ( २०१२ पासून सुरुवात केली) \n या व्यतिरिक्त, पदव्युत्तर पदवीच्या दुसया वर्षासाठी दरवर्षी १०-१५ डिप्लोमा विद्यार्थ्यांना प्रवेश दिला जातो. \n पायाभूत सुविधा आणि सुविधा कॉलेजमध्ये वर्गखोल्या आहेत. \n बर्‍याच वर्गखोल्यांमध्ये सुमारे 75 जागांची क्षमता असते, तर जवळजवळ दुप्पट क्षमतेसह काही मोठ्या कक्षासह. \n महाविद्यालयाचे सभागृह आहे ज्याचे स्थान 120 आहे. There n येथे अभियांत्रिकी ड्रॉईंग हॉल देखील आहे. \n महाविद्यालयाचे वाचन हॉल असलेली एक लायब्ररी आहे, \n अभ्यासक्रमात संबंधित पुस्तकांचे संग्रह आणि स्वत: ची सुधारणा आणि व्यक्तिमत्त्व विकासाशी संबंधित काही पुस्तके. \n महाविद्यालयीन लायब्ररी अनेक राष्ट्रीय आणि आंतरराष्ट्रीय \n जर्नल्सची सदस्यता घेतो जे विद्यार्थ्यांना मदत करण्यासाठी तांत्रिक विषयांवर वाहून घेतात \n नवीनतम घडामोडींनी स्वत:ला अद्ययावत ठेवू शकता. \n महाविद्यालय हे आयईएल ऑनलाइनचे देखील सदस्य आहे जेथे AICTE \n जर्नल्समध्ये प्रवेश केला जाऊ शकतो. वेब ब्राउझिंग सुविधा \n लायब्ररीत देखील उपलब्ध आहेत. लायब्ररीत विद्यापीठाने विहित केलेले  \n मजकूर पुस्तके आणि संदर्भ सामग्री आहे. हे सर्व प्रमुख आंतरराष्ट्रीय जर्नल्सची सदस्यता घेते \n आणि मासिके. लायब्ररी आठवड्यातून सहा दिवस, आणि परीक्षा जवळ येत असताना \n चालू असते. कॅनरा बँकेचे विस्तार काउंटर \n कॉलेज आणि पॉलिटेक्निकचे कर्मचारी आणि विद्यार्थ्यांद्वारे विशेष वापरासाठी प्रदान केले गेले आहेत. इन-हाऊस \n कॅन्टीनमध्ये विविध प्रकारचे खाद्यपदार्थ उपलब्ध आहेत. \n टेबल टेनिस, कॅरम आणि बुद्धीबळांसाठी एक जिमखाना देण्यात आला आहे. \n शाह आणि अँकरमधील मास्टर ऑफ इंजीनियरिंग (एमई) मास्टर \n ऑफ इंजिनीअरिंग विभाग २०११ साली मुंबई विद्यापीठाशी संबंधित होता. \n इलेक्ट्रॉनिक्स अभियांत्रिकी - १ जागा मास्टर इन मॅनेजमेंट स्टडीज (एमएमएस) \n हा मुंबई विद्यापीठाशी संबंधित दोन वर्षांचा पूर्ण-वेळ व्यवस्थापन प्रोग्राम आहे आणि \n अखिल भारतीय तंत्रशिक्षण परिषद (एआयसीटीई) ने त्याला मान्यता दिली आहे. विपणन, वित्त, यंत्रणा  \n आणि मानव संसाधन क्षेत्रातील क्षेत्रातील कार्यात्मक वैशिष्ट्यांसह विद्यापीठाच्या दिशानिर्देश \n अंतर्गत हा कार्यक्रम आयोजित केला जातो. महाविद्यालयात एम.एम.एस. पदवीसाठी तीन शाखांमध्ये 60 विद्यार्थ्यांची \n क्षमता आहे. विपणन वित्त प्रणाली आणि मानव संसाधन ऑपरेशन्स  \n पायाभूत सुविधा आणि सुविधा व्यवस्थापन अभ्यास विभाग महाविद्यालयीन इमारतीत आहे. \n विभागाकडे वाचन हॉल असलेली एक लायब्ररी आहे. त्यात अभ्यासक्रम आणि सामान्य व्यवस्थापन, व्यवसाय, \n स्वत:ची सुधारणा आणि व्यक्तिमत्त्व विकासाशी संबंधित पुस्तकांचा मोठा संग्रह आहे. \n अभ्यासक्रमाव्यतिरिक्त, महाविद्यालय विद्यार्थ्यांना मैदानी उपक्रमांमध्ये सक्रियपणे सहभागी होण्यास प्रोत्साहित करते."]
+    },
+    {
+        "tag": "courses_offered_hi",
+        "patterns": ["SAKEC में कौन से कोर्स हैं?", "sakec me mein kya sikhunga", "sakec mein kaunse vishay padhaye jaate hai?"],
+        "responses": ["कॉलेज में बैचलर ऑफ इंजीनियरिंग की डिग्री के लिए तीन शाखाओं में 420 छात्रों की सेवन क्षमता है: \n इलेक्ट्रॉनिक्स इंजीनियरिंग - 120 सीटें \n सूचना प्रौद्योगिकी - 120 सीटें \n कंप्यूटर इंजीनियरिंग- 120 सीटें \n इलेक्ट्रॉनिक्स और दूरसंचार - 60 सीटें (2012 से शुरू) \n इन के अलावा स्नातक की डिग्री के दूसरे वर्ष के दौरान प्रत्येक वर्ष 10-15 डिप्लोमा छात्रों को भर्ती किया जाता है। \n बुनियादी सुविधाओं और सुविधाओं कॉलेज ने कक्षाओं को सुसज्जित किया है। \n अधिकांश कक्षाओं में लगभग 75 सीटों की क्षमता होती है जबकि कुछ बड़ी कक्षाओं में लगभग दोगुनी क्षमता होती है। \n कॉलेज में एक सभागार है जिसमें 120 सीटें हैं। \n एक इंजीनियरिंग ड्राइंग हॉल भी है। कॉलेज में रीडिंग हॉल के साथ एक पुस्तकालय पाठ्यक्रम से संबंधित पुस्तकों का \n संग्रह और आत्म-सुधार और व्यक्तित्व विकास से संबंधित कुछ पुस्तकें हैं। \n कॉलेज पुस्तकालय कई राष्ट्रीय और अंतर्राष्ट्रीय पत्रिकाओं में सदस्यता लेता है जो छात्रों को नवीनतम विकास के साथ खुद को अपडेट रखने में मदद करने के लिए तकनीकी विषयों के लिए समर्पित हैं। \n कॉलेज IEL ऑनलाइन का भी सदस्य है जहां IEEE जर्नल एक्सेस किए जा सकते हैं। \n लाइब्रेरी में वेब ब्राउजिंग की सुविधा भी उपलब्ध है। पुस्तकालय में विश्वविद्यालय निर्धारित पाठ्य पुस्तकें और संदर्भ सामग्री है। \n यह सभी प्रमुख अंतरराष्ट्रीय पत्रिकाओं और पत्रिकाओं की सदस्यता लेता है। पुस्तकालय सप्ताह में छह दिन खुला रहता है \n और रविवार को जब परीक्षाएँ आती हैं। कॉलेज और पॉलिटेक्निक के कर्मचारियों और छात्रों द्वारा अनन्य उपयोग \n के लिए केनरा बैंक विस्तार काउंटर प्रदान किया गया है। इन-हाउस कैंटीन विभिन्न प्रकार के खाद्य पदार्थ प्रदान करता है। \n टेबल टेनिस कैरम और शतरंज के लिए एक जिमखाना प्रदान किया गया है। मास्टर ऑफ इंजीनियरिंग (M.E.) \n मास्टर ऑफ इंजीनियरिंग खंड शाह और एंकर में मुंबई विश्वविद्यालय द्वारा वर्ष 2011 में संबद्ध किया गया था। \n इलेक्ट्रॉनिक्स इंजीनियरिंग - 18 सीटें मास्टर इन मैनेजमेंट स्टडीज (एमएमएस) मास्टर्स इन मैनेजमेंट स्टडीज (एमएमएस) \n मुंबई विश्वविद्यालय से संबद्ध दो साल का पूर्णकालिक प्रबंधन कार्यक्रम है और इसे अखिल भारतीय तकनीकी शिक्षा परिषद \n (एआईसीटीई) द्वारा अनुमोदित किया जाता है। कार्यक्रम विश्वविद्यालय के निर्देशन में विपणन वित्त प्रणाली और मानव \n संसाधन के क्षेत्रों में पेश किए गए कार्यात्मक विशेषज्ञता के साथ आयोजित किया जाता है। \n कॉलेज में M.M.S डिग्री के लिए तीन शाखाओं में 60 छात्रों की एक सेवन क्षमता है: विपणन वित्त प्रणाली और \n मानव संसाधन संचालन अवसंरचना और सुविधाएं। प्रबंधन अध्ययन विभाग कॉलेज भवन में स्थित है। \n विभाग के पास एक पुस्तकालय है जिसमें एक रीडिंग हॉल है। इसमें पाठ्यक्रम से संबंधित पुस्तकों का एक बड़ा संग्रह है \n और सामान्य प्रबंधन व्यवसाय आत्म-सुधार और व्यक्तित्व विकास से संबंधित हैं। पाठ्यक्रम के अलावा कॉलेज छात्रों को \n बाहरी गतिविधियों में सक्रिय रूप से भाग लेने के लिए भी प्रोत्साहित करता है।"]
+    },
+    {
+        "tag": "courses_offered_gi",
+        "patterns": ["સાકેક મા કાયા અભ્યાસક્રમો ચે?", "sakec ma kaya abhyaskramo che"],
+        "responses": ["કોલેજ ની કુલ માલવી ને 420 વિદ્યાર્થીઓ ની શામ્ત ચે. ટ્રાન શાખાઓ કોલેજ મા. \n ઇલેક્ટ્રોનિક એન્જિનિયરિંગ માં 120 બેઠકો, કમ્પ્યુટર એન્જિનિયરિંગ માં 180 બેઠકો, આઇટી મા 120 સીટો, \n ઇલેક્ટ્રોનિક અને ટેલિકમ્યુનિકેશન્સ મા 60 બેઠકો (શાનવત 2012 થી થાઇ થી) \n આંતી અપાર હર વરસે 10-15 ડિપ્લોમા વિદ્યાર્થીઓ ને લાઇયે ચે હર વરસ જ્યારે બીજો વરસ ચાલો હોયે \n એન્જિનિયરિંગ ડિગ્રી નં. કોલેજ મા સજ્જ વર્ગખંડો ચે. મોટા વર્ગખંડમાં માં 75 બેઠકો ની ક્ષમતા ચે, \n પણ કોઈ મોટો વર્ગ વર્ગ માં આંતી ડબલ ક્ષમતા ચે. એક એન્જિનિયરિંગ ડ્રોઇંગ હોલ પાન ચે. ક maલેજ \n માં પુસ્તકાલય ચે વાંચન હ hallલ સાથ, ને બધિ પુસ્તકો ચે જે અભ્યાસક્રમ સંબંધિત ચે. સ્વ સુધારણા અને \n વ્યક્તિત્વ વિકાસ ની પુસ્તકો પાન ચે. ક libraryલેજ લાઇબ્રેરી મા બા બધિ રાષ્ટ્રીય અને આંતરરાષ્ટ્રીય જર્નલ \n પ panન ચે જે તકનીકી વિષયો મા વિદ્યાર્થી ની મદદ કરે અને નવીનતમ અપડેટ કરેલા હોયે ચે બદલી જર્નલ. \n કોલેજ IEL ઓનલાઇન ની સભ્ય ચે જ્યાં IEEE ની જર્નલો, પાન વપ્રી ખાતર. વેબ બ્રાઉઝિંગ સુવિધાઓ ની પાન \n વૈવાસ્થ ચે પુસ્તકાલય મા. લાઇબ્રેરી માં યુનિવર્સિટી એક કિધેલી પાઠયપુસ્તક અને સંદર્ભ સામગ્રી. \n મુખ્ય આંતરરાષ્ટ્રીય જર્નલ અને સામયિકો એનઆઈ સબ્સ્ક્રિપ્શન સુવિધા પાન ચે. \n લાયબ્રેરી div દિવાસમાં ખુલ્લા હોયે ચે અઠવાડિયે મા અને રવિવાર ના ત્યારે જ્યારે પરીક્ષા અવની હોયે. \n કેનેરા બેંક ન્યુ એક્સ્ટેંશન કાઉન્ટર પાન ચે જે ખાલી સ્ટાફ અને વિદ્યાર્થીઓ જે કોલેજ અને પોલિટેકનિક ના ચે એજ વપ્રી ખાતર. \n પોટાનીજ કેન્ટીન ચે જેમા બા બધુ વિવિધ બનાવતા ચે. જીમખાના પાન જે જેમા ટેબલ ટેનિસ કેરમ એની ચેસ ની વેવસ્થ ચે. \n M.E. વિભાગ શાહ અને એન્કર ન યુનિવર્સિટી ઓફ મુંબાઈ સાથી 2011 મા એફિલિએટ થયુ. \n ઇલેક્ટ્રોનિક એન્જિનિયરિંગ મા 18 સીટ ચે. MMS એમએમએસ હોઈ વારસ ન ફુલ ટાઇમ મેનેજમેન્ટ \n પ્રોગ્રામ ચે યુનિવર્સિટી ઓફ મુંબાઈ થી એફિલિએટેડ ચે અને AICTE થી માન્ય મંજૂરી આપી હતી. \n પ્રોગ્રામ યુનિવર્સિટી ના દિશાઓ પ્રમાને ચલેચે. સાથ ફંક્શનલ સ્પેશિયલાઇઝેશન ચે માર્કેટિંગ, ફાઇનાન્સ, \n સિસ્ટમ અને એચઆર મા. કોલેજ 60 લોકકો ને ત્રાણ શાખા મા લે ચે MMS ડિગ્રી મા. \n વિભાગ જો મેનેજમેન્ટ કોલેજ બિલ્ડિંગ મા ચે. ડિપાર્ટમેન્ટ મા પુસ્તકાલય અને વાંચન હોલ ચે. \n બા બાધી પુસ્તકો તેમણે અભ્યાસક્રમ થી સંબંધિત અને ચે, બિજા જનરલ મેનેજમેંટ, બિઝનેસ, \n સ્વ સુધારણા અને વ્યક્તિત્વ વિકાસ સંબંધિત પુસ્તકો પાન ચે. \n ખાલી ભંવા શિવાય કોલેજની આઉટડોર પ્રવૃત્તિઓ માં ભાગ લે છે કરવા સાથી કરે ચે."]
+    },
+    {
+        "tag": "placements",
+        "patterns": ["placements", "tech giants", "companies", "recruitment", "How is the campus placement at SAKEC?", "How much package can I get at SAKEC?", "package"],
+        "responses": ["Recruiters include consulting, engineering and software development firms. \n Major recruiters include Tata Consultancy Services, Mastek, Wipro, \n Syntel, iGATE, Blue Star Infotech, Amdocs, \n Oracle Financial Services Software (Previously iFlex), Indus \n Valley Partners, Mphasis, Larsen & Toubro Infotech, Capgemini, \n Tech Mahindra, Accenture, \n GE Energy, Vistaar, Webaroo (Now SMS GupShup),Godrej infotech."]
+        
+    },
+    {
+        "tag": "placements_mr",
+        "patterns": ["कंपन्या", "sakec येथे कॅम्पस प्लेसमेंट कसे आहे?", "sakec येथे मला किती पॅकेज मिळू शकेल?", "sakec madhye kitich package milu shaktel", "sakec madhye campus placement kashi aahe?", "sakec madhye kontya companies yetat"],
+        "responses": ["भरती करणार्‍यांमध्ये Consulting, अभियांत्रिकी आणि सॉफ्टवेअर Development \n कंपन्यांचा समावेश आहे. मोठ्या भरती झालेल्यांमध्ये टाटा कन्सल्टन्सी सर्व्हिसेस, \n Masktek, Wipro, Syntel, iGATE, Blue Star Infotech, Amdocs, \n Oracle Financial Services Software (आधीचे iFlex), Indus \n Valley Partners, Mphasis, Larsen & Toubro Infotech, Capgemini, \n Tech Mahindra, Accenture, \n GE Energy, Vistaar, Webaroo (Now SMS GupShup),Godrej infotech. इ. चा समावेश आहे"]
+        
+    },
+    {
+        "tag": "placements_hi",
+        "patterns": ["SAKEC में कैंपस प्लेसमेंट कैसे होता है?", "sakec mein campus placement kaise hota hai?", "sakec mein kaunsi companies aati hai"],
+        "responses": ["भर्ती करने वालों में Consulting, इंजीनियरिंग और सॉफ्टवेयर Development फर्म शामिल हैं। \n प्रमुख रिक्रूटर्स में टाटा कंसल्टेंसी सर्विसेज, \n Masktek, Wipro, Syntel, iGATE, Blue Star Infotech, Amdocs, \n Oracle Financial Services Software (आधीचे iFlex), Indus \n Valley Partners, Mphasis, Larsen & Toubro Infotech, Capgemini, \n Tech Mahindra, Accenture, \n GE Energy, Vistaar, Webaroo (Now SMS GupShup),Godrej infotech. शमिल है"]
+    },
+    {
+        "tag": "placements_gi",
+        "patterns": ["સાકેક ન્યુ કેમ્પસ પ્લેસમેન્ટ કેવુ ચે?", "sakec nu campus placement kevu che", "sakec nu placement kevu che"],
+        "responses": ["સાથી કન્સલ્ટિંગ એન્જિનિયરિંગ અને સ software ફ્ટવેર ડેવલપમેન્ટ ફર્મ્સની ભરતી આવો. \n મુખ્ય મોટા ભરતી કંપનીઓ ચે Tata Consultancy Services, Mastek, Wipro, Syntel, \n iGATE, Blue Star Infotech, Amdocs, Oracle Financial Services Software (Previously iFlex), \n Indus Valley Partners, \n Mphasis, Larsen & Toubro Infotech, Capgemini,  \n Tech Mahindra, Accenture, GE Energy, Vistaar, \n Webaroo (Now SMS GupShup),Godrej infotech."]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["thanks", "thanks for your help", "thanks alot", "thank you so much", "appreciated", "nice", "good"],
+        "responses": ["My pleasure :)",  "Happy to help you :)", "Most Welcome!", "You're welcome :)"]
+        
+    },
+    {
+        "tag": "thanks_mr",
+        "patterns": ["धन्यवाद", "आपण मदत केल्याबद्दल धन्यवाद", "चांगले", "dhanyavad", "khup dhanyavad"],
+        "responses": ["आपल्याला मदत केल्याबद्दल आनंद झाला :)"]
+        
+    },
+    {
+        "tag": "thanks_hi",
+        "patterns": ["जी शुक्रिया", "धन्यवाद", "ji shukriya", "shukriya"],
+        "responses": ["आपकी मदद करने के लिए खुशी है :)"]
+        
+    },
+    {
+        "tag": "thanks_gi",
+        "patterns": ["આભાર", "aabhar"],
+        "responses": ["ભલે પધાર્યા :)"]
+        
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["goodbye", "bye", "bubyee", "now you may leave", "go", "See you later" ],
+        "responses": ["See you next time :)",  "Pleasure talking to you :)", "Bye :)", "Hope to meet you at SAKEC! All the best!"]
+        
+    },
+    {
+        "tag": "goodbye_mr",
+        "patterns": ["निरोप", "आता तू जाऊ शकतोस", "जा", "chal jaa aata", "bhetu punha", "nirop gheto"],
+        "responses": ["पुढच्या वेळी भेटू :)", "आपल्याशी बोलताना आनंद झाला:)", "sakec येथे आपणास भेटण्याची आशा आहे. शुभेच्छा!"]
+        
+    },
+    {
+        "tag": "goodbye_hi",
+        "patterns": ["अलविदा", "alvida"],
+        "responses": ["आप से पुनः मिलने की उम्मीद करता हूं :)", "जी, जल्दी ही मिलते हैं :)"]
+        
+    },
+    {
+        "tag": "goodbye_gi",
+        "patterns": ["આવજો", "aavajo"],
+        "responses": ["પછુ પાકુ મડિયે :)"]
+        
+    }
+]
+}
